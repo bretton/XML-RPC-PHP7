@@ -17,10 +17,7 @@ environment, in so far as this XML-RPC library is concerned.
 
 # The Problem
 Legacy php code had functions replaced as follows:
-+---------------+-----------------------------------+
-|Old		|Replaced by                        |
-+---------------+-----------------------------------+
-|split		|preg_split	(and additional \'s)|
-|ereg		|preg_match	(and additional \'s)|
-|ereg_replace	|preg_replace	(and additional \'s)|
-+---------------+-----------------------------------+
+
+split		replaced by	preg_split	(and additional \'s)
+ereg		replaced by	preg_match	(and additional \'s)
+ereg_replace	replaced by	preg_replace	(and additional \'s)
