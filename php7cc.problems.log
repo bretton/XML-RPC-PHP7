@@ -1,0 +1,38 @@
+php7cc output gives the following unfixed errors
+
+File: pear/XML/RPC.php
+> Line 377: PHP 4 constructors are now deprecated
+    function XML_RPC_Client($path, $server, $port = 80, $proxy = '', $proxy_port = 8080, $proxy_user = '', $proxy_pass = '')
+    {
+    }
+> Line 497: PHP 4 constructors are now deprecated
+    function XML_RPC_Response($val, $fcode = 0, $fstr = '')
+    {
+    }
+> Line 552: PHP 4 constructors are now deprecated
+    function XML_RPC_Message($meth, $pars = 0)
+    {
+    }
+> Line 715: PHP 4 constructors are now deprecated
+    function XML_RPC_Value($val = -1, $type = '')
+    {
+    }
+
+File: pear/XML/RPC/Server.php
+> Line 154: PHP 4 constructors are now deprecated
+    function XML_RPC_Server($dispMap, $serviceNow = 1)
+    {
+    }
+> Line 156: Removed "HTTP_RAW_POST_DATA" variable used
+    $HTTP_RAW_POST_DATA;
+> Line 220: Removed "HTTP_RAW_POST_DATA" variable used
+    $HTTP_RAW_POST_DATA;
+> Line 225: Removed "HTTP_RAW_POST_DATA" variable used
+    $HTTP_RAW_POST_DATA;
+> Line 300: Removed "HTTP_RAW_POST_DATA" variable used
+    $HTTP_RAW_POST_DATA;
+> Line 306: Removed "HTTP_RAW_POST_DATA" variable used
+    $HTTP_RAW_POST_DATA;
+
+
+
